@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="Lomake.js"></script>
+  <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="">Home</a></li>
+      <li><a href="/sivut/Accordion.html">Accordion</a></li>
+      <li><a href="/sivut/Buttons.html">Buttons</a></li>
+      <li><a href="/sivut/Tietoja.html">Tietoja</a></li>
+    </ul>
+  </div>
+</nav>
+ 
+<div class="container">
+  Name <br>
+  <input type="text" id="name"> <br>
+  Note <br>
+  <textarea name="note" id="note" cols="65" rows="7"></textarea> <br>
+  <input type="checkbox"> Important <br>
+  <button type="button" onclick="muistutus(name, note)">
+  Add note <br>
+</button>
+</div>
+
+<div id="muistutus"></div>
+
+<div class="wrapper">
+  <nav id="sidebar">
+      <div class="sidebar-header">
+          <h3>Sivupalkki</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+          <li class="active">
+          </li>
+          <li>
+              <a href="https://getbootstrap.com/">Bootstrap</a>
+          </li>
+          <li>
+            <a href="https://github.com/">Github</a>
+        </li>
+              
+  </nav>
+
+</div>
+
+</body>
+</html>
